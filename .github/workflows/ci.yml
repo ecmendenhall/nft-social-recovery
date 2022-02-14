@@ -21,5 +21,8 @@ jobs:
         with:
           version: nightly
 
-      - name: Run tests
+      - name: Run forge tests
         run: forge test -vvv
+      
+      - name: Run hardhat tests
+        run: yarn hardhat test
