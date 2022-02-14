@@ -26,3 +26,6 @@ jobs:
       
       - name: Run hardhat tests
         run: yarn hardhat test
+      
+      - name: Run frontend tests
+        run: cd ./app/nft-social-recovery && yarn test
