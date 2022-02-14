@@ -32,4 +32,12 @@ contract VaultTest is DSTest {
 
         assertEq(nft.balanceOf(address(vault)), 1);
     }
+
+    function test_accepts_erc721_ownership() public {
+        nft.mint(address(this), 1);
+
+        assertEq(address(this), nft.ownerOf(1));
+    }
+
+
 }

@@ -1,7 +1,9 @@
 {
   "name": "hardhat-project",
   "script": {
-    "test": "forge test"
+    "test": "forge test",
+    "test-hard": "hardhat test",
+    "lint": "yarn solhint contracts/**/*.sol"
   },
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",

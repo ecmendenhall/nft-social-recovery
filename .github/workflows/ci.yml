@@ -23,6 +23,9 @@ jobs:
         uses: onbjerg/foundry-toolchain@v1
         with:
           version: nightly
+      
+      - name: Run linter
+        run: yarn lint
 
       - name: Run forge tests
         run: forge test -vvv
