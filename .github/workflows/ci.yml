@@ -15,6 +15,9 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
+      
+      - name: Install frontend dependencies
+        run: cd ./app/nft-social-recovery && yarn install
 
       - name: Install Foundry
         uses: onbjerg/foundry-toolchain@v1
