@@ -1,6 +1,6 @@
 {
   "name": "hardhat-project",
-  "script": {
+  "scripts": {
     "test": "forge test",
     "test-hard": "hardhat test",
     "lint": "yarn solhint contracts/**/*.sol"
