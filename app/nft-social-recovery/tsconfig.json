@@ -27,6 +27,7 @@
   "exclude": [
     "node_modules",
     "**/*.test.jsx",
-    "**/*.spec.jsx",    
+    "**/*.spec.jsx",
+    "webpack.config.js"    
   ]
 }
